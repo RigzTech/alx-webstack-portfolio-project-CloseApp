@@ -1,4 +1,4 @@
-Close
+# Close
 
 Close application reimagines social networking by prioritizing physical proximity for meaningful interactions
 
