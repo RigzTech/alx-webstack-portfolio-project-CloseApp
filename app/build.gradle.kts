@@ -51,6 +51,48 @@ android {
 
 dependencies {
 
+    //firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(platform(libs.firebase.bom.v3311))
+    implementation(libs.firebase.auth)
+    implementation(libs.play.services.auth)  //auth library
+
+    // Declare the dependency for the Cloud Firestore library
+    implementation(libs.firebase.firestore)
+    implementation(libs.androidx.media3.common)
+    implementation(libs.androidx.ui.text.google.fonts)
+
+    //
+    val nav_version = "2.7.7"
+    implementation(libs.androidx.navigation.compose)
+
+    // location
+    implementation(libs.play.services.location)
+
+    // Maps SDK for Android
+    implementation(libs.play.services.maps)
+    implementation (libs.maps.compose)
+
+    //serialization
+    implementation(libs.kotlinx.serialization.json)
+
+    //retrofit
+    implementation(libs.retrofit2.kotlinx.serialization.converter)
+    implementation(libs.retrofit)
+    implementation(libs.okhttp)
+    implementation(libs.coil.compose)
+
+    //okhttp
+    // define a BOM and its version
+    implementation(platform(libs.okhttp.bom))
+
+    // define any required OkHttp artifacts without version
+    implementation(libs.okhttp3.okhttp)
+    implementation(libs.logging.interceptor)
+
+    //gson
+    implementation (libs.gson)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
