@@ -26,15 +26,6 @@ Seeks to enrich social experiences by fostering genuine connection in the digita
 - **Firebase Firestore**
 - **Google Maps**
 
-## Previews
-
-<div align="center">
-    <img src="docs/previews/mapview.png" alt="map view" width="270">
-    <img src="docs/previews/profileView.png" alt="profile view" width="270">
-    <img src="docs/previews/ChatsListView.png" alt="chats list view" width="270">
-    <img src="docs/previews/singleRoomView.png" alt="single chat room" width="270">
-</div>
-
 ## Download Close APK
 
 <a href="docs/previews/app-debug.apk" download="Close App APK">
